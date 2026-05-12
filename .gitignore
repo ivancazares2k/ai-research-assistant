@@ -1,0 +1,14 @@
+# Environment variables - NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+frontend/.next/
+
+# Mac
+.DS_Store
