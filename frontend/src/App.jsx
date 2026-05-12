@@ -13,7 +13,7 @@ function App() {
 
   const handleAuth = async () => {
     try {
-      const response = await fetch("http://localhost:8000/validate", {
+      const response = await fetch("https://ai-research-assistant-production-093d.up.railway.app/validate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code: accessCode })
@@ -36,7 +36,7 @@ function App() {
     setReport(null)
 
     try {
-      const response = await fetch("http://localhost:8000/research", {
+      const response = await fetch("https://ai-research-assistant-production-093d.up.railway.app/research", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
