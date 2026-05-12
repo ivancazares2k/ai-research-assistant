@@ -26,6 +26,7 @@ app.add_middleware(
         "http://localhost:5174",
         "http://localhost:5175",
         "https://ai-research-assistant-production-093d.up.railway.app",
+        "https://ai-research-assistant-snowy-pi.vercel.app",
         "https://*.vercel.app"
     ],
     allow_credentials=True,
