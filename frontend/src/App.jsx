@@ -1,4 +1,5 @@
 import { useState } from "react"
+import ReactMarkdown from "react-markdown"
 import "./App.css"
 
 function App() {
@@ -68,17 +69,17 @@ function App() {
 
           <div className="section">
             <h2>📋 Report</h2>
-            <div className="content">{report.report}</div>
+            <div className="content"><ReactMarkdown>{report.report}</ReactMarkdown></div>
           </div>
 
           <div className="section">
             <h2>🔍 Search Findings</h2>
-            <div className="content">{report.search}</div>
+            <div className="content"><ReactMarkdown>{report.search}</ReactMarkdown></div>
           </div>
 
           <div className="section">
             <h2>🧠 Analysis</h2>
-            <div className="content">{report.analysis}</div>
+            <div className="content"><ReactMarkdown>{report.analysis}</ReactMarkdown></div>
           </div>
         </div>
       )}

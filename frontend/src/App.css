@@ -140,8 +140,30 @@ h1 {
 .content {
   color: #aaa;
   line-height: 1.8;
-  white-space: pre-wrap;
   font-size: 0.95rem;
+}
+
+.content h1, .content h2, .content h3 {
+  color: #ffffff;
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.content p {
+  margin-bottom: 0.75rem;
+}
+
+.content ul, .content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.content li {
+  margin-bottom: 0.4rem;
+}
+
+.content strong {
+  color: #e0e0e0;
 }
 
 .error {
